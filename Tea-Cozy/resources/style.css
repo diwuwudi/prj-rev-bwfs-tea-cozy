@@ -1,0 +1,156 @@
+body, a {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h4, h5 {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.tea-pic img {
+  height: 200px;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  background-color: black;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+}
+
+.header-child {
+  display: inline-flex;
+  height: 50px;
+  margin-left: 10px;
+  width: 15%;
+}
+
+.header-child-two {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 85%;
+}
+
+.hc3 {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.mission {
+  display: flex;
+  position: relative;
+  top: 69px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.our-mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("mission.jpg");
+  align-items: center;
+}
+
+.m3 {
+  width: 100%;
+  height: 20%;
+  background-color: black;
+}
+
+.tea {
+  display: flex;
+  position: relative;
+  top: 69px;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-type {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tea-type-two {
+  display: flex;
+  width: 670px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tea-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-pic {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-word {
+  top: 10px;
+}
+
+.location {
+  display: flex;
+  position: relative;
+  top: 69px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-one {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  background-image: url("location.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-individual {
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+}
+
+.bottom {
+  display: flex;
+  position: relative;
+  top: 69px;
+  height: 200px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 20px;
+  text-align: left;
+}
